@@ -1,0 +1,18 @@
+---
+layout: default
+title: Equipes
+---
+
+<h1>Mon Equipe</h1>
+
+<ul>
+    {% for curentAuthor in site.authors %}
+
+    <li>
+        <h2><a href="{{ curentAuthor.url }}">{{ curentAuthor.name }}</a></h2>
+        <h3>{{ curentAuthor.role }}</h3>
+        <p>{{ curentAuthor.content | markdownify }}</p>
+    </li>
+
+    {% endfor %}
+</ul>

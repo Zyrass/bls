@@ -1,0 +1,10 @@
+title: "Jekyll Actions Bash-L Store"
+
+collections:
+  authors:
+    output: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
