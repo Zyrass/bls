@@ -1,10 +1,17 @@
-title: "Jekyll Actions Bash-L Store"
+# Plugins (previously gems:)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
+  - vendor
 
 collections:
   authors:
     output: true
-
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
