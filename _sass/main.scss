@@ -32,3 +32,28 @@ footer {
   align-items: center;
   justify-content: space-around;
 }
+
+.active {
+  background-color: #17a2b8;
+}
+
+.nav-item:not(.active) {
+  padding: 0 12px;
+  background-color: transparent;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.nav-item:hover {
+  background-color: #6c757d;
+}
+
+@media (max-width: 575.98px) {
+  .size {
+    height: 50%;
+  }
+}
+@media (min-width: 575.99px) {
+  .size {
+    height: 100%;
+  }
+}
