@@ -14,11 +14,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarText">
-        <span class="navbar-text mr-auto">
-            Projet actuellement en cours de conception
-        </span>
-
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ml-auto">
           {% for currentNav in site.data.navigation %}
           <li {% if page.url == currentNav.link %} class="nav-item active" {% else %} class="nav-item" {% endif %}>
               <a
