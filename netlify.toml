@@ -1,18 +1,3 @@
-
-[[plugins]]
-  package = "netlify-plugin-minify-html"
-
-  [plugins.inputs]
-    contexts = [
-      'production',
-      'branch-deploy',
-      'deploy-preview'
-    ]
-
-    [plugins.inputs.minifierOptions]
-      removeComments = false
-      collapseInlineTagWhitespace = false
-
 [[plugins]]
   package = "netlify-plugin-jekyll-cache"
 
@@ -50,7 +35,7 @@
   [plugins.inputs.audits]
     output_path = "reports/lighthouse.html"
 
-  [[plugins.inputs.thresholds]
+  [[plugins.inputs.thresholds]]
     performance = 0.9
 
   [[plugins.inputs.audits]]
