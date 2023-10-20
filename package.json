@@ -1,0 +1,21 @@
+{
+  "name": "bls",
+  "version": "1.0.0",
+  "description": "Site de présentation pour Bash-L Store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "netlify-plugin-checklinks": "^4.1.1",
+    "netlify-plugin-image-optim": "^0.4.0",
+    "netlify-plugin-jekyll-cache": "^1.0.0",
+    "netlify-plugin-minify-html": "^0.3.1"
+  },
+  "dependencies": {
+    "netlify-plugin-html-validate": "^1.1.1"
+  }
+}
