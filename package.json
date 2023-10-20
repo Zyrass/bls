@@ -12,8 +12,7 @@
   "devDependencies": {
     "netlify-plugin-checklinks": "^4.1.1",
     "netlify-plugin-image-optim": "^0.4.0",
-    "netlify-plugin-jekyll-cache": "^1.0.0",
-    "netlify-plugin-minify-html": "^0.3.1"
+    "netlify-plugin-jekyll-cache": "^1.0.0"
   },
   "dependencies": {
     "netlify-plugin-html-validate": "^1.1.1"
