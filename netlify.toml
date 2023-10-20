@@ -1,6 +1,3 @@
-[build]
-  command = "npm install && bundle install && bundle exec jekyll build"
-  publish = "_site"
 
 [[plugins]]
   package = "netlify-plugin-minify-html"
@@ -61,6 +58,6 @@
     output_path = "reports/route1.html"
 
   [[plugins.inputs.audits]]
-    url = "https://www.example.com"
+    url = "https://bashlstore.netlify.app"
     [plugins.inputs.audits.thresholds]
       performance = 0.8
