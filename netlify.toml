@@ -2,5 +2,3 @@
   command = "bundle install && bundle exec jekyll build"
   publish = "_site"
 
-[[plugins]]
-  package = "netlify-plugin-is-website-vulnerable"
