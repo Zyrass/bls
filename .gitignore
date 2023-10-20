@@ -7,4 +7,3 @@ _site/
 *.gem
 .bundle
 vendor/bundle
-node_modules
